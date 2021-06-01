@@ -94,7 +94,8 @@ select __from __where __ like '_M%'
 */
 
 /*
-- 잉여 테이블
+- 잉여 테이블: dual table
 임시 테이블로 syntax 오류 방지용으로 주로 사용
+select from dual;
 
 */
